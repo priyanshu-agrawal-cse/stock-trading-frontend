@@ -2,8 +2,8 @@ import React from 'react'
 
 import Hero from './Hero';
 import Team from './Team';
-import Navbar from '../../comp/Navbar'
-import Navbar from '../../comp/Footer'
+import Navbar from './Navbar'
+import Navbar from './Footerr'
 
 function AboutPage() {
     return (

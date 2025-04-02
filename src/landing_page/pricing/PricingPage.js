@@ -2,9 +2,9 @@ import React from 'react'
 
 import Hero from './Hero';
 import Brokerage from './Brokerage';
-import Navbar from '../../comp/Navbar'
-import Navbar from '../../comp/Footer'
-import OpenAccount from '../../comp/OpenAccount';
+import Navbar from './Navbar'
+import Navbar from './Footer'
+import OpenAccount from './OpenAccount';
 
 function PrincingPage() {
     return (
