@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from '../../Navbar';
+
 import Hero from './Hero';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 import Univers from './Univers';
-import Footer from '../../Footer';
+import Navbar from '../../comp/Navbar'
+import Navbar from '../../comp/Footer'
 
 function ProductPage() {
     return (

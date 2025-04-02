@@ -1,8 +1,9 @@
 import React from 'react'
-import Navbar from '../../Navbar';
+
 import Hero from './Hero';
 import CreateTiket from './CreateTiket';
-import Footer from '../../Footer';
+import Navbar from '../../comp/Navbar'
+import Navbar from '../../comp/Footer'
 
 function SupportPage() {
     return (
