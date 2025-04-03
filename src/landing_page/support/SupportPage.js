@@ -2,8 +2,9 @@ import React from 'react'
 
 import Hero from './Hero';
 import CreateTiket from './CreateTiket';
-import Navbar from './Navbar'
-import Navbar from './Footer'
+import Navbar from 'landing_page/Navbar'
+import Footer from 'landing_page/Footer'
+
 
 function SupportPage() {
     return (

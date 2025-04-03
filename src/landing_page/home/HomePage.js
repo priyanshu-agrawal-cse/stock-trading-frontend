@@ -4,9 +4,9 @@ import Pricing from './Pricing'
 import Stats from './Stats'
 import Awards from './Awards'
 import Education from './Education'
-import OPenAccount from './OpenAccount'
-import Navbar from './Navbar'
-import Navbar from './Footer'
+import OpenAccount from 'landing_page/OpenAccount'
+import Navbar from 'landing_page/Navbar'
+import Footer from 'landing_page/Footer'
 
 function HomePage() {
     return (
@@ -17,7 +17,7 @@ function HomePage() {
         <Stats />
         <Pricing />
         <Education />
-        <OPenAccount />
+        <OpenAccount />
         <Footer/>
 
         
