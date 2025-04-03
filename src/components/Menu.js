@@ -110,22 +110,22 @@ const Menu = () => {
             </Link>
           </li>
           <li>
-            <Link style={{ textDecoration: "none" }} to="/orders" onClick={() => handelMenuClick(1)}>
+            <Link style={{ textDecoration: "none" }} to="/dash/orders" onClick={() => handelMenuClick(1)}>
               <p className={SelectedMenu === 1 ? activeMenuClass : menuClass}>Orders</p>
             </Link>
           </li>
           <li>
-            <Link style={{ textDecoration: "none" }} to="/holdings" onClick={() => handelMenuClick(2)}>
+            <Link style={{ textDecoration: "none" }} to="/dash/holdings" onClick={() => handelMenuClick(2)}>
               <p className={SelectedMenu === 2 ? activeMenuClass : menuClass}>Holdings</p>
             </Link>
           </li>
           <li>
-            <Link style={{ textDecoration: "none" }} to="/positions" onClick={() => handelMenuClick(3)}>
+            <Link style={{ textDecoration: "none" }} to="/dash/positions" onClick={() => handelMenuClick(3)}>
               <p className={SelectedMenu === 3 ? activeMenuClass : menuClass}>Positions</p>
             </Link>
           </li>
           <li>
-            <Link style={{ textDecoration: "none" }} to="/funds" onClick={() => handelMenuClick(4)}>
+            <Link style={{ textDecoration: "none" }} to="/dash/funds" onClick={() => handelMenuClick(4)}>
               <p className={SelectedMenu === 4 ? activeMenuClass : menuClass}>Funds</p>
             </Link>
           </li>
