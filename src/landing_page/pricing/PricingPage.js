@@ -2,9 +2,9 @@ import React from 'react'
 
 import Hero from './Hero';
 import Brokerage from './Brokerage';
-import OpenAccount from 'landing_page/OpenAccount'
-import Navbar from 'landing_page/Navbar'
-import Footer from 'landing_page/Footer'
+import Navbar from './Navbar'
+import Footer from './Footer'
+import OpenAccount from './OpenAccount';
 
 function PrincingPage() {
     return (

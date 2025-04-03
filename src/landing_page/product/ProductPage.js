@@ -4,8 +4,8 @@ import Hero from './Hero';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 import Univers from './Univers';
-import Navbar from 'landing_page/Navbar'
-import Footer from 'landing_page/Footer'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 function ProductPage() {
     return (

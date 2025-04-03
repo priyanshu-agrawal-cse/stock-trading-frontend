@@ -4,9 +4,9 @@ import Pricing from './Pricing'
 import Stats from './Stats'
 import Awards from './Awards'
 import Education from './Education'
-import OpenAccount from 'landing_page/OpenAccount'
-import Navbar from 'landing_page/Navbar'
-import Footer from 'landing_page/Footer'
+import OpenAccount from './OpenAccount'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 function HomePage() {
     return (
