@@ -30,7 +30,7 @@ import PrincingPage from '../../dashboard/src/landing_page/pricing/PricingPage';
 import ProductPage from '../../dashboard/src/landing_page/product/ProductPage';
 import SupportPage from '../../dashboard/src/landing_page/support/SupportPage';
 
-import NotFound from '../../dashboard/src/landing_page/NotFound';
+import NotFound from './landing_page/NotFound';
 import Login from '../../dashboard/src/landing_page/login/Login';
 import Home from "./components/Home";
 
