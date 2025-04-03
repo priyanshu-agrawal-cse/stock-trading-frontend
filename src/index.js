@@ -29,8 +29,7 @@ import AboutPage from '../../dashboard/src/landing_page/about/AboutPage';
 import PrincingPage from '../../dashboard/src/landing_page/pricing/PricingPage';
 import ProductPage from '../../dashboard/src/landing_page/product/ProductPage';
 import SupportPage from '../../dashboard/src/landing_page/support/SupportPage';
-import Navbar from '../../dashboard/src/landing_page/Navbar';
-import Footer from '../../dashboard/src/landing_page/Footer';
+
 import NotFound from '../../dashboard/src/landing_page/NotFound';
 import Login from '../../dashboard/src/landing_page/login/Login';
 import Home from "./components/Home";
@@ -49,7 +48,7 @@ root.render(
     <Route path="/support" element={<SupportPage/>} /> 
     <Route path="/login" element={<Login/>} /> 
     <Route path="/dash/*" element={<Home />} />
-    {/* <Route path="*" element={<NotFound/>} />  */}
+    <Route path="*" element={<NotFound/>} /> 
 
 
    </Routes>
