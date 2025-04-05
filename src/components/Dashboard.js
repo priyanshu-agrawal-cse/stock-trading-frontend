@@ -60,6 +60,7 @@ const Dashboard = () => {
   return (
     <ProtectedRoute>
       <div className="dashboard-container">
+        
         <GeneralContextProvider>
           <WatchList />
         </GeneralContextProvider>
